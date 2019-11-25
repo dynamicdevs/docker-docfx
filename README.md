@@ -11,7 +11,8 @@ You can build your document code with the following command:
 ```sh
 docker run --rm --name docfx \
 -v path-to-docs-folder:/docfx \
--v path-to-src-if-apply:container-src-path
+-v path-to-src-if-apply:container-src-path \
+dynamicdevs/docfx
 ```
 
 ### **Important**
