@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 1.2.0 - _2019-11-25_
+
+- Changing docker WorkDir
+
 ## 1.1.0 - _2019-11-25_
 
 - Automating DocFx build

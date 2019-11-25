@@ -12,5 +12,5 @@ RUN apt-get update && apt-get install unzip wget git -y && \
 RUN nuget install memberpage -OutputDirectory /docfx/plugins && \
     nuget install rest.tagpage -OutputDirectory /docfx/plugins && \
     nuget install rest.operationpage -OutputDirectory /docfx/plugins
-
+WORKDIR /docfx
 CMD [ "docfx", "build" ]

@@ -11,15 +11,14 @@ You can build your document code with the following command:
 ```sh
 docker run --rm --name docfx \
 -v path-to-docs-folder:/docfx \
--v path-to-src-if-apply:container-src-path \
--w /docfx dynamicdevs/docfx:latest
+-v path-to-src-if-apply:container-src-path
 ```
 
 ### **Important**
 
+- `docfx.json` file should be `/docfx` directory
 - You should map document directory into `/docfx` directory.
 - Whether your `src` folder is into directory `/docfx` folder don't map the `src` volume
-- You should consider `-w` argument for executing docfx where docfx.json is located
 
 ## Plugins
 
