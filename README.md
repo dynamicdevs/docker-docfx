@@ -9,7 +9,7 @@ DocFx is a Document generator for .Net Core a .Net Framework project
 You can build your document code with the following command:
 
 ```sh
-docker run --rm --name docfx -v path-to-docs-folder:/docfx -c path-to-src-if-apply -w /docfx dynamicdevs/docfx:latest docfx docfx.json build
+docker run --rm --name docfx -v path-to-docs-folder:/docfx-js-ts -v path-to-src-if-apply:dest-in-src -w /docfx dynamicdevs/docfx-js-ts:latest docfx docfx.json build
 ```
 
 ### **Important**
