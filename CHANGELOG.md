@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 1.3.0 - _2019-11-27_
+
+- Fixing CMD script
+
 ## 1.2.0 - _2019-11-25_
 
 - Changing docker WorkDir

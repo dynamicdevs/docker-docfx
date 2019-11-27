@@ -13,4 +13,4 @@ RUN nuget install memberpage -OutputDirectory /docfx/plugins && \
     nuget install rest.tagpage -OutputDirectory /docfx/plugins && \
     nuget install rest.operationpage -OutputDirectory /docfx/plugins
 WORKDIR /docfx
-CMD [ "docfx", "build" ]
+CMD [ "docfx", "docfx.json", "build" ]
