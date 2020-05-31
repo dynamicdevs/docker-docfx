@@ -1,5 +1,5 @@
 FROM dynamicdevs/netcore-mono:latest as docfx
-ENV DOCFX_VER 2.47
+ENV DOCFX_VER 2.48.1
 # Installing DocFx
 RUN apt-get update && apt-get install unzip wget git -y && \
     wget -q -P /tmp https://github.com/dotnet/docfx/releases/download/v${DOCFX_VER}/docfx.zip && \
